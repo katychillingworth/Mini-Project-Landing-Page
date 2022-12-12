@@ -19,10 +19,7 @@ html, body {
     align-items: center;
     justify-content: space-between;
     padding: 1.1rem 5rem;
-    background: linear-gradient(180deg, #6fb4fd 0%, #5caafc 100%);
-
     padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: rgb(121, 139, 83);
     color: #ffffff;
     padding-top: 15px;
@@ -30,6 +27,15 @@ html, body {
     float: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
+}
+
+.hero {
+    height: 635px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F47%2F2020%2F10%2F01%2Fhugging-dog-1178788345-2000.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
 .brand a {
@@ -47,13 +53,6 @@ ul {
 li {
     list-style-type: none;
     margin-left: 3rem;
-}
-
-li > a{_
-text-decoration: none;
-color: #fff;
-font-size: 0.9rem;
-font-weight: 500;
 }
 
 .header div ul {
@@ -77,6 +76,13 @@ h3 {
     color: white;
     font-size: 40px;
     background-color: rgb(121, 139, 83);
+}
+
+h4 {
+    color: white;
+    font-size: 20px;
+    background-color: rgb(121, 139, 83);
+
 }
 
 a {
