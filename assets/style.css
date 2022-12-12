@@ -25,6 +25,12 @@ body {
     margin-left: 25px;
 }
 
+h3 {
+    color: white;
+    font-size: 40px;
+    background-color: rgb(121, 139, 83);
+}
+
 a {
     color: #ffffff;
     text-decoration: none;
